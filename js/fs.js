@@ -2,7 +2,7 @@ const wiki = require('wikijs').default({
 apiUrl : 'http://en.wikipedia.org/w/api.php'
 });
 
-var hint=require("../hint.json")
+var hint=require("../son/hint.json")
 const tit=hint.key
 const tri=tit.replace(/\ /g,"-").replace(/\(/g,"-").replace(/\)/,"");
 
@@ -13,7 +13,7 @@ const sin=con.replace(/\'/g,"")
 console.log(sin);
 
 var fs=require("fs")
-var fil=__dirname+tri+".js"
+var fil="./res/"+tri+".js"
 fs.writeFile(fil, sin, function(err) {
 if (err) {return console.log(err);    }
 else {console.log('no err');    }
