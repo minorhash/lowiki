@@ -1,0 +1,26 @@
+{
+  "name": "lowiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "google": "^2.1.0",
+    "kakasi": "^1.0.0",
+    "wikijs": "^4.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minorhash/lowiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minorhash/lowiki/issues"
+  },
+  "homepage": "https://github.com/minorhash/lowiki#readme"
+}
