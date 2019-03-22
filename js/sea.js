@@ -5,9 +5,10 @@ apiUrl : 'http://en.wikipedia.org/w/api.php'
 console.log(__dirname)
 var hint=require(__dirname+"/en.json")
 const tit=hint.key
-console.log(tit)
+console.log(tit);
 
 const tri=tit.replace(/\ /g,"-").replace(/\(/g,"-").replace(/\)/,"");
+console.log(tri);
 
 (async() => {
 const page = await wiki.page(tit)

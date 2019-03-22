@@ -6,7 +6,7 @@ var nextCounter = 0
 var hint=require(__dirname+"/en.json")
 const tit=hint.key
 
-google(tit, function (err, res){
+var res=google(tit, function (err, res){
   if (err) console.error(err)
 
   for (var i = 0; i < res.links.length; ++i) {
@@ -21,4 +21,8 @@ google(tit, function (err, res){
     nextCounter += 1
     if (res.next) res.next()
   }
+
+
 })
+
+console.log(res)
