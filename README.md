@@ -1,7 +1,7 @@
-### wikipedia in low profile 
-# requires wikijs, google
+# wikipedia in low profile 
+## requires wikijs, google
 
-# search and write to file
+### search and write to file
 
 ```js
 const wiki = require('wikijs').default({
