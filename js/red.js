@@ -4,7 +4,7 @@ var arg2=process.argv[2]
 var boo
 
 var cb=function(err, dat) {
-    console.log(dat.replace(/\./g,"\.\n").replace(/\,/g,"\,\n"))
+    console.log(dat)
 return dat
 }
 
